@@ -118,12 +118,6 @@ Therefore, a comprehensive scoring model can be proposed to take into account va
 
 This score can be a standardized value that reflects the overall computing power status of the system. The formulation of a comprehensive scoring model can combine Data Analysis and network topology features.
 
-Weighted summation of the dynamic performance indicators mentioned above, the formula for defining Composite Performance Score (CPS) is:
-
-$$CPS = w_1 \cdot \text{CPU-Utilization} + w_2 \cdot \text{CPU-Frequency} + w_3 \cdot \text{CPU-Cores} + w_4 \cdot \text{Memory-Utilization} + w_5 \cdot \text{Memory-Frequency} + w_6 \cdot \text{Storage-Utilization} + w_7 \cdot \text{GPU-Memory} + w_8 \cdot \text{GPU-Utilization}$$
-
-Among them, ( $w_1, w_2, \ldots, w_8$ ) are the weights of each indicator, which can be adjusted according to specific needs.
-
 ## 0xF1 - Network Quality Index (NQI)
 
 From the perspective of network status, a network quality measurement mechanism can be introduced to evaluate network quality.
@@ -133,12 +127,6 @@ Network Quality Index (NQI) takes into account several important performance ind
 The goal of NQI is to provide a single metric to measure the overall quality of the network, so that network administrators and system operators can more easily understand the performance of the network and take corresponding measures to optimize the network.
 
 The definition of NQI is based on the weighted average of a series of network performance indicators. Each performance indicator is assigned a weight, which reflects the relative importance of each indicator to network quality. Then, by multiplying the values of each indicator with its corresponding weight and adding all weighted values, a comprehensive score, namely NQI, is obtained.
-
-The NQI calculation formula is defined as follows:
-
-$$NQI = w_1 \cdot \text{Latency} + w_2 \cdot \text{Packet-Loss}  + w_3 \cdot \text{Bandwidth-Utilization}$$
-
-Among them, ( $w_1, w_2, w_3$ ) are the weights of each indicator, which can be adjusted according to specific needs.
 
 # Security Considerations
 
