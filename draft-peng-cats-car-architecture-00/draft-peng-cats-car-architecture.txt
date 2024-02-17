@@ -102,17 +102,26 @@ Table of Contents
    |  CAI Type[n]  |                 CAI Value[n]                  |
    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
-   The CARH contains the following fields: - Version Number (4-bit): The
-   version number indicates the CARH format version. - Time to Live
-   (8-bit): Time to Live indicates the effective time of the resource
-   information represented by CARH. - Length (16-bit): Length of the
-   CARH. - Timestamp (64-bit): Timestamp for perceiving resource
-   information. - CAI Type (8-bit): Computing-Aware Info Type (CAI Type)
-   represents a type of computing resource and the order of magnitude
-   corresponding to the specific value of that type of resource.  This
-   section corresponds one-to-one with the CAI Value. - CAI Value
-   (24-bit): Computing-Aware Info Value (CAI Value) represents the
-   specific value of the resource identified by the CAI Type.
+   The CARH contains the following fields:
+
+   *  Version Number (4-bit): The version number indicates the CARH
+      format version.
+
+   *  Time to Live (8-bit): Time to Live indicates the effective time of
+      the resource information represented by CARH.
+
+   *  Length (16-bit): Length of the CARH.
+
+   *  Timestamp (64-bit): Timestamp for perceiving resource information.
+
+   *  CAI Type (8-bit): Computing-Aware Info Type (CAI Type) represents
+      a type of computing resource and the order of magnitude
+      corresponding to the specific value of that type of resource.
+      This section corresponds one-to-one with the CAI Value.
+
+   *  CAI Value (24-bit): Computing-Aware Info Value (CAI Value)
+      represents the specific value of the resource identified by the
+      CAI Type.
 
 3.  Computing-Aware Info (CAI)
 

@@ -1190,13 +1190,27 @@ In the implementation of CATS, a key task is to design a message format that can
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 </pre><a href="#section-2-1" class="pilcrow">¶</a>
 </div>
-<p id="section-2-2">The CARH contains the following fields:
-- Version Number (4-bit): The version number indicates the CARH format version.
-- Time to Live (8-bit): Time to Live indicates the effective time of the resource information represented by CARH.
-- Length (16-bit): Length of the CARH.
-- Timestamp (64-bit): Timestamp for perceiving resource information.
-- CAI Type (8-bit): Computing-Aware Info Type (CAI Type) represents a type of computing resource and the order of magnitude corresponding to the specific value of that type of resource. This section corresponds one-to-one with the CAI Value.
-- CAI Value (24-bit): Computing-Aware Info Value (CAI Value) represents the specific value of the resource identified by the CAI Type.<a href="#section-2-2" class="pilcrow">¶</a></p>
+<p id="section-2-2">The CARH contains the following fields:<a href="#section-2-2" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-2-3.1">
+          <p id="section-2-3.1.1">Version Number (4-bit): The version number indicates the CARH format version.<a href="#section-2-3.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-3.2">
+          <p id="section-2-3.2.1">Time to Live (8-bit): Time to Live indicates the effective time of the resource information represented by CARH.<a href="#section-2-3.2.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-3.3">
+          <p id="section-2-3.3.1">Length (16-bit): Length of the CARH.<a href="#section-2-3.3.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-3.4">
+          <p id="section-2-3.4.1">Timestamp (64-bit): Timestamp for perceiving resource information.<a href="#section-2-3.4.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-3.5">
+          <p id="section-2-3.5.1">CAI Type (8-bit): Computing-Aware Info Type (CAI Type) represents a type of computing resource and the order of magnitude corresponding to the specific value of that type of resource. This section corresponds one-to-one with the CAI Value.<a href="#section-2-3.5.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-2-3.6">
+          <p id="section-2-3.6.1">CAI Value (24-bit): Computing-Aware Info Value (CAI Value) represents the specific value of the resource identified by the CAI Type.<a href="#section-2-3.6.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
 </section>
 </div>
 <div id="computing-aware-info-cai">
