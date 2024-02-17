@@ -72,6 +72,7 @@ The CAR is a flexible and powerful message transmission method designed to suppo
 ~~~
 
 The CARH contains the following fields:
+
 - Version Number (4-bit): The version number indicates the CARH format version.
 - Time to Live (8-bit): Time to Live indicates the effective time of the resource information represented by CARH.
 - Length (16-bit): Length of the CARH.
