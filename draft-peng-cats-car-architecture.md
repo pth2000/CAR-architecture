@@ -1,27 +1,20 @@
 ---
-title: "The Computing-Aware Routing Architecture in Computing-Aware Traffic Steering"
-abbrev: "CAR Architecture"
+title: The Computing-Aware Routing Architecture in Computing-Aware Traffic Steering
+abbrev: CAR Architecture
 category: info
 
 docname: draft-peng-cats-car-architecture-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
+submissiontype: IETF
 number:
 date:
 consensus: true
 v: 3
-area: "Routing"
-workgroup: "Computing-Aware Traffic Steering"
+area: Routing area
+workgroup: cats
 keyword:
  - User Experience
  - Collaborative Networking
  - Service optimization
-venue:
-  group: "Computing-Aware Traffic Steering"
-  type: "Working Group"
-  mail: "cats@ietf.org"
-  arch: "https://mailarchive.ietf.org/arch/browse/cats/"
-  github: "pth2000/CAR-architecture"
-  latest: "https://pth2000.github.io/CAR-architecture/draft-peng-cats-car-architecture.html"
 
 author:
  -
