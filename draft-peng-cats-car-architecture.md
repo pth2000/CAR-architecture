@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Routing"
+workgroup: "Computing-Aware Traffic Steering"
 keyword:
  - next generation
  - unicorn
  - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "Computing-Aware Traffic Steering"
+  type: "Working Group"
+  mail: "cats@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/cats/"
+  github: "pth2000/CAR-architecture"
+  latest: "https://pth2000.github.io/CAR-architecture/draft-peng-cats-car-architecture.html"
 
 author:
  -
