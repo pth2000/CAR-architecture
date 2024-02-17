@@ -19,8 +19,8 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "The Computing-Aware Routing Architecture in Computing-Aware Traffic Steering"
+abbrev: "CAR Architecture"
 category: info
 
 docname: draft-todo-yourname-protocol-latest
