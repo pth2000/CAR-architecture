@@ -53,7 +53,7 @@ The CAR is a flexible and powerful message transmission method designed to suppo
 
 # The Computing-Aware Routing Headers (CARH)
 
-```
+~~~
  0                   1                   2                   3
  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -69,7 +69,7 @@ The CAR is a flexible and powerful message transmission method designed to suppo
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |  CAI Type[n]  |                 CAI Value[n]                  |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-```
+~~~
 
 The CARH contains the following fields:
 - Version Number (4-bit): The version number indicates the CARH format version.
